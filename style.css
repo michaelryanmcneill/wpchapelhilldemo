@@ -7,3 +7,11 @@
  Template:       twentytwelve
  Version:        1.0.0
 */
+
+// This @import line loads the stylesheet from the parent theme
+@import url("/wp-content/themes/twentytwelve/style.css");
+
+// Now we can override styles from the parent theme...
+body {
+    background: #56A0D3;
+}
